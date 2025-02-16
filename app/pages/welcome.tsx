@@ -69,13 +69,6 @@ export default function Welcome(props: any) {
       href: "/posts/categories/education",
       desc: "Can you imagine the world full of entertaiment? Meh",
     },
-    {
-      title: "Self Improvement",
-      image:
-        "https://th.bing.com/th/id/R.7e2ac750c2cf53b215ebe3a7f9f6783f?rik=DgZpiHLbMOnHew&riu=http%3a%2f%2fwww.mortylefkoe.com%2fwp-content%2fuploads%2f2013%2f10%2fbigstock-Personal-Development-103013.jpg&ehk=XvVN36oTSUn6pRyt%2bredl6hZpQ29YLTwRcz5kSRFEk0%3d&risl=&pid=ImgRaw&r=0",
-      href: "/posts/categories/improvement",
-      desc: "Work and life balanced",
-    },
   ];
   const [navOpen, setNavOpen] = useState(false);
   const [quotes, setQuotes] = useState("");
